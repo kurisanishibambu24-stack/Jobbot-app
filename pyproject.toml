@@ -1,10 +1,13 @@
 [project]
 name = "koti"
 version = "0.1.0"
+description = "Koti Flet App"
+requires-python = ">=3.12"
 dependencies = [
-    "flet"
+    "flet",
 ]
 
 [tool.flet]
-app_name = "Koti"
+app.path = "."
+
 
