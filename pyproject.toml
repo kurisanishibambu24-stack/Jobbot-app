@@ -1,9 +1,10 @@
 [project]
-name = "jobbot"
+name = "koti"
 version = "0.1.0"
 dependencies = [
     "flet"
 ]
 
 [tool.flet]
-app_name = "JobBot"
+app_name = "Koti"
+
